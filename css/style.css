@@ -275,8 +275,33 @@ height: 317px;
 }
 
 #contact {
-  background-image: url(../images/contact-bg.jpg);
+  background-image: url(../images/20200530-lupin-sub2.jpg);
   min-height: 100vh;
+}
+
+.contact-content{
+  margin-top: 20%;
+  max-width: 560px;
+}
+
+.contact-content .page-title {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-content p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.125rem;
+  margin:10px 0 0;
+}
+
+.contact .item img{
+  border-radius: 0;
+  height: auto;
+}
+
+.text{
+  text-align: left;
 }
 
 form div {
@@ -359,6 +384,40 @@ iframe{
 
 .sns-box{
   width: 30%;
+}
+
+.sns-box .sub-title{
+  color: black;
+  text-align: center;
+}
+
+.sns-title{
+  color: black;
+  text-align: center;
+ margin:20px 0;
+ border: #0bd 1px solid;
+}
+
+.ep-list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.ep-list li{
+  margin-right: 5px;
+  background: slategray;
+  width: 35px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.ep-list a{
+  color: #ddd;
+}
+
+li .ep-active{
+  background: snow;
 }
 
 /* モバイル版 */
